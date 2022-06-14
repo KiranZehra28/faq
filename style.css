@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gradient : linear-gradient(to right, #cc20b8, #2B14F9);
+    --h1 : exo-extrabold;
+    --h2 : exo-semibold;
+    --text : exo-thin
+}
+
+@font-face {
+    font-family: exo-extrabold;
+    src: url(fonts/Exo-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: exo-semibold;
+    src: url(fonts/Exo-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: exo-thin;
+    src: url(fonts/Exo-Thin.ttf);
+}
+
+body {
+    /* background-image: url(images/body-background.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    font-family: var(--h2);
+    padding: 30px 0;
+}
+
+header li {
+    display: inline-block;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.header-div1 {
+    width: 10%;
+}
+
+.header-div2 {
+    width: 70%;
+}
+
+.header-div3 {
+    width: 20%;
+    text-align: right;
+}
+
+header button {
+    background-color: inherit;
+    padding: 15px 50px;
+    margin-top: 5px;
+    border: 1px white solid;
+    border-radius: 5px;
+    background-image: var(--gradient);
+}
+
+header button:hover{
+   animation: reverse;
+}
+
+/* header button:hover {
+    background-image: var(--gradient);
+} */
+
+.active{
+    background-image: var(--gradient);
+    color: white;
+}
+
+.data ul{
+    display: flex;
+    margin: 0 auto;
+}
+
+.data ul li {
+    list-style: none;
+    background-color: rgb(88, 82, 82);
+    padding: 10px 27px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: exo-semibold;
+    box-shadow: 4px 4px #eb5ad7;
+}
+
+.data ul li:hover{
+    color: rgb(1, 1, 34);
+}
+
+#ui-id-8{
+    margin-bottom: 30px;
+}
+
+.ui-accordion-header{
+    color: white;
+    font-family: exo-semibold;
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    background-image: var(--gradient);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 1200px;
+}
+
+.ui-accordion-content{
+    color: white;
+    font-family: exo-thin;
+    font-size: 20px;
+    padding: 5px;
+    margin: 15px;
+}
+
+.div-1 div{
+    padding: 20px;
+}
+
+.div-1 p{
+    color: white;
+    font-family: exo-thin;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.sec-2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2 h1{
+    font-family: exo-semibold;
+    font-size: 45px;
+    color: white;
+}
+
+.sec-2 a{
+    background-image: var(--gradient);
+    font-family: exo-semibold;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: 4px 4px #eb5ad7;
+}
+
+.sec-3{
+    display: fles;
+    justify-content: space-evenly;
+}
+
+.sec-3 div{
+    background-color: rgb(46, 44, 44);
+    border-radius: 9px;
+    height: 280px;
+    width: 19%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sec-3 img{
+    margin: 0 auto;
+    border-radius: 9px 9px 0px 0px ;
+}
+
+.sec-3 h4{
+    font-family: exo-semibold;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sec-3 p{
+    font-family: exo-thin;
+    font-size: 15px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.sec-3 span{
+    color: yellow;
+    font-family: exo-semibold;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+footer {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--text);
+    padding: 35px 0;
+}
+
+footer li {
+    display: inline-block;
+    padding: 25px 40px;
+}
+
+footer a {
+    display: inline-block;
+}
+
+.footer-div1 {
+    width: 10%;
+    padding-top: 8px;
+} 
+
+.footer-div2 {
+    width: 60%;
+    text-align: right;
+}
+
+.footer-div3 {
+    width: 30%;
+    text-align: right;
+    padding-top: 6px;
+}
