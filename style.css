@@ -13,17 +13,17 @@
 
 @font-face {
     font-family: exo-extrabold;
-    src: url(fonts/Exo-ExtraBold.ttf);
+    src: url(Exo-ExtraBold.ttf);
 }
 
 @font-face {
     font-family: exo-semibold;
-    src: url(fonts/Exo-SemiBold.ttf);
+    src: url(Exo-SemiBold.ttf);
 }
 
 @font-face {
     font-family: exo-thin;
-    src: url(fonts/Exo-Thin.ttf);
+    src: url(Exo-Thin.ttf);
 }
 
 body {
