@@ -214,7 +214,7 @@ header button:hover{
 }
 
 footer {
-    background-image: url(images/footer-bg.png);
+    background-image: url(footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: var(--text);
